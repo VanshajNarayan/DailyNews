@@ -1,0 +1,30 @@
+.HeadingNews{
+  text-align: center;
+  margin: 20px;
+  font-size: 2em;
+  color: red;
+  font-weight: 800;
+}
+
+.MoreNews{
+  text-align: center;
+}
+
+.MoreNews .readNews{
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.HeadingNews span{
+  color: rgb(101, 244, 6);
+}
+
+.newsui{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  max-width: 90%;
+  margin : 30px auto;
+};
+

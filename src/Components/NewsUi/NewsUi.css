@@ -1,0 +1,62 @@
+.newsCards{
+  background-color: #fff;
+  padding: 10px;
+}
+
+.card{
+  width: 300px;
+  background-color: rgb(219, 210, 210);
+  margin: 10px;
+}
+
+.card .img img{
+  width: 300px;
+  object-fit: contain;
+}
+
+.card .title{
+  color: #bb1b1b;
+  width: 50%;
+  font-size: 1.2rem;
+  font-weight: 800;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.card .author{
+  color: #050505;
+  font-size: 1rem;
+  font-weight: 900;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.card .publishedAt{
+  color: #2a4cc9;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 10px;
+  letter-spacing: 0.1rem;
+}
+
+.card .source{
+  color: green;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 900;
+}
+
+.card .link a{
+  display: block;
+  text-align: center;
+}
+
+.card .link a button{
+  margin: 15px;
+  padding: 8px 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

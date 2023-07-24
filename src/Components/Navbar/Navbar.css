@@ -1,0 +1,32 @@
+.Navbar{
+  background-color: rgb(18, 17, 17);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.Navbar .tittleNavbar{
+  color: #fff;
+}
+
+.Navbar ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.Navbar ul li{
+  color: #eeeaea;
+  cursor: pointer;
+  padding: 10px;
+  letter-spacing: 0.05rem;
+}
+
+.Navbar ul li:hover{
+  color: rgb(101, 244, 6);
+}
+
+.Navbar ul li:active{
+  color: red;
+}
+
